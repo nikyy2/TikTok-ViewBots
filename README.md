@@ -1,29 +1,22 @@
-UPDATED !! (temporary fix) thanks to [@platipus9999](https://github.com/platipus9999)
+no more shitty selenium
+![image](https://github.com/user-attachments/assets/81f5c238-d0d6-45c9-8aa7-3fe7f112730e)
+> [!WARNING]  
+> We have not had the opportunity to finalize development, and users should proceed with caution.
 
-`v2.py` has automatic captcha solver
-
-
-&emsp;
-
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/98614666/218313368-e8b3613c-6639-4922-95ac-c23bbcdffdf1.png"></img>
-</p>
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/98614666/218313369-31f5049c-0dd4-4eca-b323-cccc3436a418.png"></img>
-</p>
-
-
+> [!CAUTION]
+> **We are not liable for any damages caused or any consequences such as bans that may result from using this software. Users should proceed at their own risk.**
 How to run:
 ```
-  1. Verify that you have pip and python installed => https://www.youtube.com/watch?v=dYfKJMPNMDw
-  2. Run this command in cmd: pip install tls_client requests colorama pillow
-  3. run the python file by double clicking on it or type: python viewbot.py
+  1. Install Python 3.10 - 3.12
+  2. Run: python main.py or py main.py
+  3. Just do the step
 ```
 
 Advantages:
 ```
-  1.  fast, easy
-  2.  lightweight
-  3.  Has dynamic views count running on TikTok API
-  4.  mobile users can run it
+  1.  no selenium
+  2.  no selenium
+  3.  no selenium
+  4.  no selenium
+  5.  no selenium
 ```
