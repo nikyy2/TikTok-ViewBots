@@ -23,3 +23,5 @@
 ```
 # Contribution:
 just send me a pull request, bruh.
+
+alsooo please star if you love this project ;)
