@@ -1,5 +1,5 @@
 # no more shitty selenium
-
+# catpcha resolver api is down, ill post tutorial to make your own zefoy automate this week.
 ![image](https://github.com/user-attachments/assets/81f5c238-d0d6-45c9-8aa7-3fe7f112730e)
 > [!WARNING]  
 > We have not had the opportunity to finalize development, and users should proceed with caution.
