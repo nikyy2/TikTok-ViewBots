@@ -1,6 +1,6 @@
 # no more shitty selenium
-no way captcha resolver api is DOWN once again, use "nocaptcharesolver.py" until the api is up.
-# captcha resolver api is down, ill post tutorial how to make your own zefoy automate this week.
+~~no way captcha resolver api is DOWN once again, use "nocaptcharesolver.py" until the api is up.~~
+## Captcha Resolver API is back | enjoy ;-)
 ![image](https://github.com/user-attachments/assets/81f5c238-d0d6-45c9-8aa7-3fe7f112730e)
 > [!WARNING]  
 > We have not had the opportunity to finalize development, and users should proceed with caution.
