@@ -15,7 +15,7 @@ for "helloworld.py"
   2. Run: python helloworld.py or py helloworld.py
   3. Just do the step
 ```
-for "nocaptchasolver.py"
+~~~for "nocaptchasolver.py"
 ```
   1. Install Python 3.10 - 3.12
   2. Install undetected driver selenium
@@ -26,7 +26,7 @@ for "withcaptchasolver.py"
   1. Install Python 3.10 - 3.12
   2. Install undetected driver selenium, OCR at https://github.com/UB-Mannheim/tesseract/wiki
   3. Run: python withcaptchasolver.py or py withcaptchasolver.py
-```
+```~~~
 Need more help? https:/t.me/nikymetaa
 # Contribution:
 just send me a pull request.
