@@ -13,20 +13,10 @@ for "helloworld.py"
 ```
   1. Install Python 3.10 - 3.12
   2. Run: python helloworld.py or py helloworld.py
-  3. Just do the step
+  3. Input video link and choose method
 ```
-~~for "nocaptchasolver.py"
-```
-  1. Install Python 3.10 - 3.12
-  2. Install undetected driver selenium
-  3. Run: python nocaptchasolver.py or py nocaptchasolver.py
-```
-for "withcaptchasolver.py"
-```
-  1. Install Python 3.10 - 3.12
-  2. Install undetected driver selenium, OCR at https://github.com/UB-Mannheim/tesseract/wiki
-  3. Run: python withcaptchasolver.py or py withcaptchasolver.py
-```~~
+
+
 Need more help? https:/t.me/nikymetaa
 # Contribution:
 just send me a pull request.
