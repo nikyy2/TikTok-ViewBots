@@ -13,7 +13,7 @@ for "helloworld.py"
 ```
   1. Install Python 3.10 - 3.12
   2. Run: python helloworld.py or py helloworld.py
-  3. Input video link and choose method
+  3. Input video link and choose service
 ```
 
 
