@@ -1,6 +1,6 @@
 import os
 try:
-    import requests,colorama,prettytable
+    import undetected-chromedriver, selenium
 except:
     os.system("pip install undetected-chromedriver")
     os.system("pip install selenium")
