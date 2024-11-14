@@ -2,7 +2,7 @@ import os
 try:
     import undetected_chromedriver,selenium
 except:
-    os.system("pip install undetected-chromedriver")
+    os.system("pip install undetected_chromedriver")
     os.system("pip install selenium")
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
