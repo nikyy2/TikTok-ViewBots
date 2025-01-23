@@ -1,6 +1,6 @@
-import os, requests
+import os
 try:
-    import undetected_chromedriver,selenium,setuptools
+    import undetected_chromedriver,selenium,setuptools,requests
 except:
     os.system("pip install undetected_chromedriver")
     os.system("pip install selenium")
