@@ -1,9 +1,11 @@
 import os
 try:
-    import undetected_chromedriver,selenium,setuptools,requests
+    import undetected_chromedriver,selenium,requests
 except:
     os.system("pip install undetected_chromedriver")
     os.system("pip install selenium")
+    os.system("pip install setuptools")
+    os.system("pip install requests")
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
