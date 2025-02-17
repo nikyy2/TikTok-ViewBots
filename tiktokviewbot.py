@@ -80,10 +80,17 @@ try:
     sleep(3)
     solve_captcha()
 
-    click1 = WebDriverWait(driver, 45).until(
-        EC.element_to_be_clickable((By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[6]/div/button'))
-    )
-    click1.click()
+    try:
+        click1 = WebDriverWait(driver, 45).until(
+            EC.element_to_be_clickable((By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[6]/div/button'))
+        )
+        if not click1.is_enabled():
+            print("Button is disabled - service is not updated")
+            return
+        click1.click()
+     except:
+        print("Button is disabled - service is not updated")
+        return
     sleep(2)
 
     input_link = driver.find_element(By.XPATH, '/html/body/div[10]/div/form/div/input')
