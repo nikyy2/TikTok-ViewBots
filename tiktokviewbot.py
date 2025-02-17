@@ -68,6 +68,11 @@ def solve_captcha():
         print("Solving CAPTCHA...")
         
         captcha = get_captcha()
+
+        if captcha == "".replace(" ", "") or any(char.isdigit() for char in captcha):
+            print("Captcha OCR returned wrong values, retrying...")
+            time.sleep(2)
+            solve_captcha()
         
         captcha_input = driver.find_element(By.CSS_SELECTOR, "body > div.noscriptcheck > div.ua-check > form > div > div > div > input")
         captcha_input.send_keys(captcha)
@@ -78,6 +83,13 @@ def solve_captcha():
 try:
     driver.get("https://zefoy.com/")
     sleep(3)
+
+    clickcookies = WebDriverWait(driver, 45).until( #This is optional, just visually appealing
+        EC.element_to_be_clickable((By.XPATH, '/html/body/div[7]/div[2]/div[2]/div[3]/div[2]/button[1]')) #This is optional, just visually appealing
+    ) #This is optional, just visually appealing
+    clickcookies.click() #This is optional, just visually appealing
+    sleep(1) #This is optional, just visually appealing
+    
     solve_captcha()
 
     click1 = WebDriverWait(driver, 45).until(
