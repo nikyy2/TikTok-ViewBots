@@ -85,7 +85,7 @@ try:
     sleep(3)
 
     clickcookies = WebDriverWait(driver, 45).until(
-        EC.element_to_be_clickable((By.XPATH, '/html/body/div[7]/div[2]/div[2]/div[3]/div[2]/button[1]')) #This is optional, just visually appealing
+        EC.element_to_be_clickable((By.XPATH, '/html/body/div[7]/div[2]/div[2]/div[3]/div[2]/button[1]'))
     )
     clickcookies.click() 
     sleep(1) 
