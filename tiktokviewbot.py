@@ -100,7 +100,7 @@ try:
             print("Button is disabled - service is not updated")
             return
         click1.click()
-     except:
+    except:
         print("Button is disabled - service is not updated")
         return
     sleep(2)
