@@ -98,11 +98,9 @@ try:
         )
         if not click1.is_enabled():
             print("Button is disabled - service is not updated")
-            return
         click1.click()
     except:
         print("Button is disabled - service is not updated")
-        return
     sleep(2)
 
     input_link = driver.find_element(By.XPATH, '/html/body/div[10]/div/form/div/input')
